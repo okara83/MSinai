@@ -1,0 +1,1373 @@
+
+P A U P *
+Version 4.0b10 for Macintosh (PPC/Altivec)
+Wednesday, March 10, 2010  2:34 PM
+
+This copy registered to: Andrew Bergemann
+                         Mount Sinai School of Medicine
+                         (serial number = B419613)
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+Processing of file "ALIGNMENTEXON4b.nex" begins...
+
+Created by MacVector on Nov 23 2009 at 15:16:44.
+Data read in DNA format
+
+Data matrix has 16 taxa, 600 characters
+Valid character-state symbols: ACGT
+Missing data identified by 'N'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   n ==> {ACGT}
+
+Processing of file "ALIGNMENTEXON4b.nex" completed.
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 15
+
+Bootstrap method with heuristic search:
+  Number of bootstrap replicates = 1000
+  Starting seed = 1756460586
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 600 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        274 characters are constant
+        124 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 202
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+  Addition sequence: simple (reference taxon = gorilla.nucl)
+  Number of trees held at each step during stepwise addition = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+  Steepest descent option not in effect
+  Initial 'MaxTrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  Keeping only trees compatible with constraint-tree "muroids"
+  Trees are unrooted
+
+   1000 bootstrap replicates completed
+   Time used = 6.85 sec
+
+Bootstrap 50% majority-rule consensus tree
+
+                                                   /----------------- gorilla.nucl(1)
+                                                   |
+                                          /--100---+        /-------- homo.nucl(6)
+                                          |        \--100---+
+                                  /--95---+                 \-------- pan.nucl(7)
+                                  |       |
+                                  |       \-------------------------- pongo.nucl(8)
+                          /--89---+
+                          |       |                         /-------- macaca.nucl(3)
+                          |       \-----------100-----------+
+                 /--100---+                                 \-------- mfascicularis.nu(12)
+                 |        |
+        /---97---+        \------------------------------------------ callithrix.nucl(5)
+        |        |
+        |        \--------------------------------------------------- tarsius.nucl(15)
+        |
+        |                                                   /-------- mus.nucl(4)
+        |                                                   |
+        |                                                   +-------- musDBAj.nucl(10)
+/-------+                                          /--100---+
+|       |                                          |        +-------- muscastaneous.nu(11)
+|       |                                          |        |
+|       |                                 /--100---+        \-------- musspretus.nucl(14)
+|       |                                 |        |
+|       |                         /--100--+        \----------------- rattus.nucl(9)
+|       |                         |       |
+|       \-----------58------------+       \-------------------------- dipodomys.nucl(13)
+|                                 |
+|                                 \---------------------------------- cavia.nucl(16)
+|
+\-------------------------------------------------------------------- monodelphis.nucl(2)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support
+values):
+
+         1     1
+1234567890123456      Freq      %
+---------------------------------
+.....**.........   1000.00 100.0%
+..*........*....   1000.00 100.0%
+...*....***.**..   1000.00 100.0%
+...*.....**..*..   1000.00 100.0%
+...*....***..*..   1000.00 100.0%
+.****..*********   1000.00 100.0%
+.*.*....***.****   1000.00 100.0%
+.*.*....***.**.*    969.79  97.0%
+.****...********    949.50  95.0%
+.*.**...***.****    892.26  89.2%
+...*....***.**.*    580.35  58.0%
+.........**..*..    463.26  46.3%
+...*.....**.....    430.34  43.0%
+.*.*....***.**..    216.70  21.7%
+.*.............*    198.08  19.8%
+.........**.....    169.68  17.0%
+..........*..*..    119.25  11.9%
+.........*...*..    119.25  11.9%
+..*.*......*....     78.41   7.8%
+
+14 groups at (relative) frequency less than 5% not shown
+
+Tree description:
+
+  Unrooted tree(s) rooted using outgroup method
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 600 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        274 characters are constant
+        124 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 202
+    Gaps are treated as "missing"
+    Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree number 1 (rooted using user-specified outgroup)
+
+Data matrix and reconstructed states for internal nodes:
+
+                           111111111122222222223333333333444444444455555555556666666666777
+Taxon/Node        123456789012345678901234567890123456789012345678901234567890123456789012
+------------------------------------------------------------------------------------------
+gorilla.nucl      TCCACGGCCCCACCGACCAAGCGGCATTGCCGGTCCTTGTCAGAACCCAAGGAGCTTGTGTGCTGCCGGTCC
+monodelphis.nucl  CCTCTGGCCCCACCTCCCAAACGACACTGTCGATCCCTGTCAGAGCCCGATGAGCTGGCTCGCTGCCGGTCC
+macaca.nucl       TCCACGGCCCCACCGACCAAGCGACATTGCCGGTCCCTGTCAGAACCTGAGGAGCTGGTGCGCTGCCGGTCC
+mus.nucl          CCTGCAGCACCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAACCAGAGGAGCTAGCTCGATGCCGCTCC
+callithrix.nucl   TCCACGGCGCCACCCACCAAGCGTCATTGCCGGTCCCTGTCAGAACCTGAGGAGCTGGTGCGCTGCCGGTCC
+homo.nucl         TCCACGGCCCCACCGACCAAGCGGCATTGCCGGTCCTTGTCAGAACCCGAGGAGCTTGTGCGCTGCCGGTCC
+pan.nucl          TCCACGGCCCCACCGACCAAGCGGCATTGCCGGTCCTTGTCAGAACCCGAGGAGCTTGTGCGCTGCCGGTCC
+pongo.nucl        TCCACGGCCCCACCGACCAAGCGGCATTGCCGGTCCTTGTCAGAACCCGAGGAGCTTGTGTGCTGCTGGTCC
+rattus.nucl       CCCGCAGCTCCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAGCCAGAGGAGCTGGCTCGATGCCGTTCC
+musDBAj.nucl      CCTGCAGCACCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAACCAGAGGAGCTAGCTCGATGCCGCTCC
+muscastaneous.nu  CCTGCAGCACCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAACCAGAGGAGCTAGCTCGATGCCGCTCC
+mfascicularis.nu  -CCACGGCCCCACCGACCAAGCGACATTGCCGGTCCCTGTCAGAACCTGAGGAGCTGGTGCGCTGCCGGTCC
+dipodomys.nucl    CCCGTGGCACCACCGACTAAGCGGCACTGCCGGTCCCTGTCAGAGCCTGAGGAGCTGGCTCGCTGCCGCTCC
+musspretus.nucl   CCTGCAGCACCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAACCAGAGGAGCTAGCTCGATGCCGCTCC
+tarsius.nucl      -CCACCGCTCCACCAACCAAGCGACACTGCCGGTCTCTGTCAGAGCCAGAGGAGCTGGCGCGTTGCCCGTCC
+cavia.nucl        CCCACAGCACCGCCAACCAAGCGGCATTGTCGGTCCCTGTCGGAGCCAGAAGAGCTTGCCCGATGCTGGTCG
+17                CCTGCAGCACCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAACCAGAGGAGCTAGCTCGATGCCGCTCC
+18                CCCGCAGCACCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAGCCAGAGGAGCTGGCTCGATGCCGCTCC
+19                CCCGCAGCACCACCAACCAAGCGGCACTGCCGGTCCCTGTCAGAGCCAGAGGAGCTGGCTCGATGCCGCTCC
+20                CCCACAGCACCACCAACCAAGCGGCACTGTCGGTCCCTGTCAGAGCCAGAAGAGCTGGCTCGATGCCGGTCC
+21                CCTCTGGCCCCACCTCCCAAACGACACTGTCGATCCCTGTCAGAGCCCGATGAGCTGGCTCGCTGCCGGTCC
+22                CCCACGGCCCCACCAACCAAGCGACACTGTCGGTCCCTGTCAGAGCCAGAGGAGCTGGCTCGCTGCCGGTCC
+23                CCCACGGCCCCACCAACCAAGCGACACTGCCGGTCCCTGTCAGAGCCAGAGGAGCTGGCGCGCTGCCGGTCC
+24                TCCACGGCCCCACCGACCAAGCGACATTGCCGGTCCCTGTCAGAACCTGAGGAGCTGGTGCGCTGCCGGTCC
+25                TCCACGGCCCCACCAACCAAGCGACATTGCCGGTCCCTGTCAGAACCTGAGGAGCTGGTGCGCTGCCGGTCC
+26                TCCACGGCCCCACCGACCAAGCGACATTGCCGGTCCCTGTCAGAACCTGAGGAGCTGGTGCGCTGCCGGTCC
+27                TCCACGGCCCCACCGACCAAGCGGCATTGCCGGTCCTTGTCAGAACCCGAGGAGCTTGTGCGCTGCCGGTCC
+28                TCCACGGCCCCACCGACCAAGCGGCATTGCCGGTCCTTGTCAGAACCCGAGGAGCTTGTGCGCTGCCGGTCC
+29                TCCACGGCCCCACCGACCAAGCGGCATTGCCGGTCCTTGTCAGAACCCGAGGAGCTTGTGCGCTGCCGGTCC
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                                             111111111111111111111111111111111111111111111
+                  777777788888888889999999999000000000011111111112222222222333333333344444
+Taxon/Node        345678901234567890123456789012345678901234567890123456789012345678901234
+------------------------------------------------------------------------------------------
+gorilla.nucl      CCCTGGCGCCCCGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCGACAGCGGCGGGAGTGCC
+monodelphis.nucl  CCATGGAAACCTGGCAGTTCCAAGGTCTGGACTCCCGTTTCCAAGAGACGATGCAACAGCGGCGGCAGTGCC
+macaca.nucl       CCCTGGCGCCCTGGCAGCTCCACGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGCGGTGGGAGCGCA
+mus.nucl          CCGTGGCGCCCTGGTAGCTCCAAGGTGTGGACTCCCATCTCCAAGAGGAGGTGCAACAGTGGTGGGAGTGCC
+callithrix.nucl   CCCTGGCGTCCCAGCGGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGTGGTGGGAGCGCC
+homo.nucl         CCCTGGCGCCCCGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCGACAGCGGCGGGAGTGCC
+pan.nucl          CCCTGGCGTCCCGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGTGGTGTGACAGCGGCGGGAGTGCC
+pongo.nucl        CCCTGGCGCCCTGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGCGGCGGGAGCGCC
+rattus.nucl       CCATGGCGCCCTGGTAGCTCCAAGGTGTGGACTCCCATCTCTAAGAGGAGATGCAACAGTGGCGGGAGTGCC
+musDBAj.nucl      CCGTGGCGCCCTGGTAGCTCCAAGGTGTGGACTCCCATCTCCAAGAGGAGGTGCAACAGTGGTGGGAGTGCC
+muscastaneous.nu  CCGTGGCGCCCTGGTAGCTCCAAGGTGTGGACTCCCATCTCCAAGAGGAGGTGCAACAGTGGTGGGAGTGCC
+mfascicularis.nu  CCCTGGCGCCCTGGCAGCTCCACGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGCGGTGGGAGCGCA
+dipodomys.nucl    CCATGGCGGCCCAGCGGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGCTGCAACAGCGGCGGAAGTGCC
+musspretus.nucl   CCGTGGCGCCCTGGTAGCTCCAAGGTGTGGACTCCCATCTCCAAGAGGAGGTGCAACAGTGGTGGGAGTGCC
+tarsius.nucl      CCATGGCGCCCCGGTGGCTCCAAGGTGTGGACTCCAGTCTCCAAGAGGCGATGCAACAGTGGCGGAAGCGCC
+cavia.nucl        CCCTGGCGCCCTGGTGGCTCCAAGGTCTGGACTCTAGTCTCCAAGAGGCGATGCAACAGTGGGGGGAGTGCT
+17                CCGTGGCGCCCTGGTAGCTCCAAGGTGTGGACTCCCATCTCCAAGAGGAGGTGCAACAGTGGTGGGAGTGCC
+18                CCATGGCGCCCTGGTAGCTCCAAGGTGTGGACTCCCATCTCCAAGAGGAGATGCAACAGTGGCGGGAGTGCC
+19                CCATGGCGCCCTGGTGGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGATGCAACAGTGGCGGGAGTGCC
+20                CCATGGCGCCCTGGTGGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGATGCAACAGTGGCGGGAGTGCC
+21                CCATGGAAACCTGGCAGTTCCAAGGTCTGGACTCCCGTTTCCAAGAGACGATGCAACAGCGGCGGCAGTGCC
+22                CCATGGCGCCCTGGTGGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGATGCAACAGTGGCGGCAGTGCC
+23                CCATGGCGCCCCGGTGGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGATGCAACAGTGGCGGGAGCGCC
+24                CCCTGGCGCCCTGGCAGCTCCACGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGCGGTGGGAGCGCA
+25                CCCTGGCGCCCCGGCGGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGTGGTGGGAGCGCC
+26                CCCTGGCGCCCTGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGCGGTGGGAGCGCC
+27                CCCTGGCGCCCCGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCGACAGCGGCGGGAGTGCC
+28                CCCTGGCGCCCTGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCAACAGCGGCGGGAGCGCC
+29                CCCTGGCGCCCYGGCAGCTCCAAGGTCTGGACTCCAGTCTCCAAGAGGCGGTGCRACAGCGGCGGGAGYGCC
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                  111111111111111111111111111111111111111111111111111111122222222222222222
+                  444445555555555666666666677777777778888888888999999999900000000001111111
+Taxon/Node        567890123456789012345678901234567890123456789012345678901234567890123456
+------------------------------------------------------------------------------------------
+gorilla.nucl      ACGCGGCAGGGAAGCCCCGGC---------------------------------------------------
+monodelphis.nucl  ACCTTGCAGCGCTGCAACAGTAGCGGCAGTGCCACCCTGCAGAGAAGTACCAGCATCAGCCTGCCCCAGAGT
+macaca.nucl       ACATTGCAGGGAAGCCCCGGC---------------------------------------------------
+mus.nucl          ACACTTCAGTGCTGCAGCGGCGTGGGCAACCCTACTCTGCAGGGCACTCTAGTCCC---------------T
+callithrix.nucl   ACGCTGCAGGGAAGCCCGGGT---------------------------------------------------
+homo.nucl         ACGCGGCAGGGAAGCCCCGGC---------------------------------------------------
+pan.nucl          ATGCGGCAGGGAAGCCCCGGC---------------------------------------------------
+pongo.nucl        ACGCTGCAGGGAAGCCCCAGC---------------------------------------------------
+rattus.nucl       ACGCTGCAGTGCTGCAGTGGTCTCGGCAACCCTGCACTGCAGGGCAGTCTAGCCCC---------------C
+musDBAj.nucl      ACACTTCAGTGCTGCAGCGGCGTGGGCAACCCTACTCTGCAGGGCACTCTAGTCCC---------------T
+muscastaneous.nu  ACACTTCAGTGCTGCAGCGGCGTGGGCAACCCTACTCTGCAGGGCACTCTAGTCCC---------------T
+mfascicularis.nu  ACATTGCAGGGAAGCCCCGGC---------------------------------------------------
+dipodomys.nucl    ACGCTGCGGGGCGGCGGCGGCGGC------------------------------------------------
+musspretus.nucl   ACACTTCAGTGCTGCAGCGGCGTGGGCAACCCTACTCTGCAGGGCACTCTAGTCCC---------------T
+tarsius.nucl      ACACTGCAACGCTGCAGTGGCCATGGGAACGCCACACAGCAGGG------AAGCCC---------------A
+cavia.nucl        ACACTGCAGCGCTGTAGTGGCCTTGGGGGTACGGCCCTG---------------------------------
+17                ACACTTCAGTGCTGCAGCGGCGTG??CAACC?TA?T?T????G?C?C?CTAGT?CC???????????????T
+18                ACGCTGCAGTGCTGCAGCGGCGTC??CAACC?TG?A?T????G?C?G?CTAGC?CC???????????????T
+19                ACGCTGCAGGGCTGCAGCGGCGTC??CAACC?TG?A?T????G?C?G?CTAGC?CC???????????????T
+20                ACACTGCAGCGCTGCAGCGGCCTC??CAGTA?GG?C?T????G?C?G?CTAGC?CC???????????????T
+21                ACCTTGCAGCGCTGCAACAGTAGC??CAGTG?CA?C?T????A?A?G?ACCAG?AT???????????????T
+22                ACACTGCAGCGCTGCAGCGGCCGC??CAGTG?CA?C?T????G?A?G?ACAAG?CC???????????????T
+23                ACACTGCAGCGCTGCAGCGGCCGC??CAGTG?CA?C?T????G?A?G?ACAAG?CC???????????????T
+24                ACATTGCAGGGAAGCCCCGGCCGC??CAGTG?CA?C?T????G?A?G?ACAAG?CC???????????????T
+25                ACACTGCAGGGAAGCCCCGGCCGC??CAGTG?CA?C?T????G?A?G?ACAAG?CC???????????????T
+26                ACACTGCAGGGAAGCCCCGGCCGC??CAGTG?CA?C?T????G?A?G?ACAAG?CC???????????????T
+27                ACGCGGCAGGGAAGCCCCGGCCGC??CAGTG?CA?C?T????G?A?G?ACAAG?CC???????????????T
+28                ACGCTGCAGGGAAGCCCCGGCCGC??CAGTG?CA?C?T????G?A?G?ACAAG?CC???????????????T
+29                ACGCKGCAGGGAAGCCCCGGCCDT??GARYG?CA?M?W????G?M?G?MYAAG?CC???????????????W
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                  222222222222222222222222222222222222222222222222222222222222222222222222
+                  111222222222233333333334444444444555555555566666666667777777777888888888
+Taxon/Node        789012345678901234567890123456789012345678901234567890123456789012345678
+------------------------------------------------------------------------------------------
+gorilla.nucl      GCTGTCCTGCCGAGGAGTGCTGTGTGGTCGACCGGTCCCACCTCGCCCGCCACGCCCCGGCCGTCCTCCGCC
+monodelphis.nucl  GTCCTGCCGCTCCAGAATGTGTTCCCTGTTACTGGCTTCCACACATCTCCGGTGCCCAGGCCTTCCTCCGCC
+macaca.nucl       GCCGTCCTGCCGAGCAGTGCCGCGTGGTTGACCGGTCCCACCTCACCCGCCACGCCCCGGCCGTCCTCGGCC
+mus.nucl          GGCCT---ACCCAGGAGGCCTGTGTCACCCGCTGGCCCTACCTCACCCCTGACGCCCCGGCCAGCTTCAGCC
+callithrix.nucl   GCCGTTCTGCCGAGGAGTGCCCTGTGGTTGGCTGGCCCCACCTCACCTGCCACGCCCCGGCCGTCCTCGGCC
+homo.nucl         GCCGTCCTGCCGAGGAGTGCTGTGTGGTCGACCGGTCCCACCTCGCCCGCCACGCCCCGGCCGTCCTCCGCC
+pan.nucl          GCCGTCCTGCCAAGGAGTGCTGTGTGGTTGACCCGTCCCACCTCGCCCGCCACGCCCCGGCCGTCCTCCGCC
+pongo.nucl        GCCGTCCTGCCTAGGGGTGCTGTGTGGTTGGCCGGTCCCACCCTGCCTGCCACGCCCCGGCCGTCCTCGGCC
+rattus.nucl       GGCCT---ACCCAGGAAGCCTGTGTCGCCCACCGGCCCTACCTCACCGATGACGCCCCGGCCAGCTTCAGCC
+musDBAj.nucl      GGCCT---ACCCAGGAGGCCTGTGTCACCCGCTGGCCCTACCTCACCCCTGACGCCCCGGCCAGCTTCAGCC
+muscastaneous.nu  GGCCT---ACCCAGGAGGCCTGTGTCACCCGCTGGCCCTACCTCACCCCTGACGCCCCGGCCAGCTTCAGCC
+mfascicularis.nu  GCCGTCCTGCCGAAGAGTGCCGCGTGGTTGACCGGTCCCACCTCACCCGCCACGCCCCGGCCGTCCTCGGCC
+dipodomys.nucl    GGCGGCAGCCTTGGGAGCTTGGGCCTGCCCAGGAGCCCCACCTTGCCCCTGGTGCCCCGGCCTGCCTCTCCC
+musspretus.nucl   GGCCTCCTACCCAGGAGGCCTGTGTCACCCGCTGGCCCTACCTCACCCCTGACGCCCCGGCCAGCTTCAGCC
+tarsius.nucl      GGCACCCCGCCGAGGAGCGCTGCGTTGCTGGCCAGCCCCACCTCACCCTCTACACCCCGGCCATCCTCGGCC
+cavia.nucl        ------------------------TCACCTGCTGGCCCCACTTCACCCCTGGCACCCCGGCCAGCGTCAGCC
+17                GGCCTCCTACCCAGGAGGCCTGTGTCACCCGCTGGCCCTACCTCACCCCTGACGCCCCGGCCAGCTTCAGCC
+18                GGCCTCCTACCCAGGAGGCCTGTGTCGCCCACTGGCCCTACCTCACCCCTGACGCCCCGGCCAGCTTCAGCC
+19                GGCCTCCGACTCAGGAGCCTGGTCTCGCCCACTGGCCCCACCTCACCCCTGGCGCCCCGGCCAGCCTCAGCC
+20                GGCCTCCGACTCAGGAGCCTGGTCTCACCTACTGGCCCCACCTCACCCCTGGCGCCCCGGCCAGCCTCAGCC
+21                GTCCTGCCGCTCCAGAATGTGTTCCCTGTTACTGGCTTCCACACATCTCCGGTGCCCAGGCCTTCCTCCGCC
+22                GGCCTCCCGCTCAGGAGCGTGGTCTCGCTTACTGGCCCCACCTCACCCCCGGCGCCCCGGCCATCCTCCGCC
+23                GGCCTCCCGCCGAGGAGCGCGGTGTCGCTGGCTGGCCCCACCTCACCCCCGACGCCCCGGCCATCCTCGGCC
+24                GCCGTCCTGCCGAGGAGTGCCGCGTGGTTGACCGGTCCCACCTCACCCGCCACGCCCCGGCCGTCCTCGGCC
+25                GCCGTCCTGCCGAGGAGTGCCGTGTGGTTGGCTGGCCCCACCTCACCCGCCACGCCCCGGCCGTCCTCGGCC
+26                GCCGTCCTGCCGAGGAGTGCCGTGTGGTTGGCCGGTCCCACCTCACCCGCCACGCCCCGGCCGTCCTCGGCC
+27                GCCGTCCTGCCGAGGAGTGCTGTGTGGTTGACCGGTCCCACCTCGCCCGCCACGCCCCGGCCGTCCTCCGCC
+28                GCCGTCCTGCCGAGGAGTGCTGTGTGGTTGGCCGGTCCCACCTCGCCCGCCACGCCCCGGCCGTCCTCGGCC
+29                GCCGTCCTGCCGAGGAGTGCTGTGTGGTTGRCCGGTCCCACCTCGCCCGCCACGCCCCGGCCGTCCTCSGCC
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                  222222222223333333333333333333333333333333333333333333333333333333333333
+                  899999999990000000000111111111122222222223333333333444444444455555555556
+Taxon/Node        901234567890123456789012345678901234567890123456789012345678901234567890
+------------------------------------------------------------------------------------------
+gorilla.nucl      AGTGGCGGCTTCATGGACAGCAGCGAGGGCAGTGTGGGCTCAGGCCCGCTCTGGTGTTCCGCGGAGTCCTGC
+monodelphis.nucl  AGCAGTGGCTTTGTGGACAGCAGTGAGGGCAGCACCAGCTCAAGCATCCGCTGGAATTCTGCTGGACCTTGT
+macaca.nucl       AGCAGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCAGGCTCAGGCCTGCCCTGGTGTTCCGCAGAGCCCTAC
+mus.nucl          AGCAGTGGCTTTGTGGATGGCAGTGAGGGCAGTACAAGCTCAGGCCCACCCTGGCTTTCTACAGGACCCTGC
+callithrix.nucl   AGCAGCGGCTTCGTGGACAGCAGTGAGGGCAGCGTAGGCTCAGGCCCACCCTGGTGTTCCACGGAGCCCTGC
+homo.nucl         AGCGGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCGGGCTCAGGCCCGCTCTGGTGTTCCGCGGAGTCCTGC
+pan.nucl          AGTGGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCGGGCTCAGGCCCGCTCTGGTGTTCCGCGGAGTCCTGC
+pongo.nucl        AGCAGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCAGGCTCAGGCGCGCTCTGGTGTTCCGCGGAGTCCTGC
+rattus.nucl       AGCAGTGGCTTTGTGGATGGCAGTGAGGGCAGTACGAGCTCAGGTCCACCCTGGCTTTCTACAGGACCCTGC
+musDBAj.nucl      AGCAGTGGCTTTGTGGATGGCAGTGAGGGCAGTACAAGCTCAGGCCCACCCTGGCTTTCTACAGGACCCTGC
+muscastaneous.nu  AGTAGTGGCTTTGTGGATGGCAGTGAGGGCAGTACAAGCTCAGGCCCACCCTGGCTTTCTACAGGACCCTGC
+mfascicularis.nu  AGCAGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCAGGCTCAGGCCTGCCCTGGTGTTCCGCAGAGCCCTAC
+dipodomys.nucl    AGCAGCGGCGTGGGCGAGAGCATCGAGGGTGGCCCGGCCTTGGCCCCCCCCTG---CCCTGAGCAGCCTGGC
+musspretus.nucl   AGCAGTGGCTTTGTGGATGGCAGTGAGGGCAGTACAAGCTCAGGCCCACCCTGGCTTTCTACAGGACCCTGC
+tarsius.nucl      AGCAGTGGCTTTATGGACAGCAGCGAGGGCAGCATGGGCTCAGGCCCGCCCTGGTGTCCCACAGGGCCCTGC
+cavia.nucl        AGCAGTGGCTTTGTGGACAGCAGTGAGGGCAGTACAGGCTCAGGCCCATCCTGGCGTCCTACAGGGCCCTGC
+17                AGCAGTGGCTTTGTGGATGGCAGTGAGGGCAGTACAAGCTCAGGCCCACCCTGGCTTTCTACAGGACCCTGC
+18                AGCAGTGGCTTTGTGGATGGCAGTGAGGGCAGTACGAGCTCAGGCCCACCCTGGCTTTCTACAGGACCCTGC
+19                AGCAGTGGCTTTGTGGAGAGCAGTGAGGGCAGTACGGGCTCAGGCCCACCCTGGCTTCCTACAGGGCCCTGC
+20                AGCAGTGGCTTTGTGGACAGCAGTGAGGGCAGTACAGGCTCAGGCCCACCCTGGCGTCCTACAGGGCCCTGC
+21                AGCAGTGGCTTTGTGGACAGCAGTGAGGGCAGCACCAGCTCAAGCATCCGCTGGAATTCTGCTGGACCTTGT
+22                AGCAGTGGCTTTGTGGACAGCAGTGAGGGCAGCACGGGCTCAGGCCCCCCCTGGAGTCCTACAGGGCCCTGC
+23                AGCAGTGGCTTTGTGGACAGCAGTGAGGGCAGCATGGGCTCAGGCCCACCCTGGTGTCCCACAGGGCCCTGC
+24                AGCAGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCAGGCTCAGGCCTGCCCTGGTGTTCCGCAGAGCCCTAC
+25                AGCAGCGGCTTCGTGGACAGCAGTGAGGGCAGCGTAGGCTCAGGCCCACCCTGGTGTTCCACAGAGCCCTGC
+26                AGCAGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCAGGCTCAGGCCCGCCCTGGTGTTCCGCAGAGCCCTGC
+27                AGCGGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCGGGCTCAGGCCCGCTCTGGTGTTCCGCGGAGTCCTGC
+28                AGCAGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCAGGCTCAGGCCCGCTCTGGTGTTCCGCGGAGTCCTGC
+29                AGCRGCGGCTTCGTGGACAGCAGCGAGGGCAGTGCRGGCTCAGGCCCGCTCTGGTGTTCCGCGGAGTCCTGC
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                  333333333333333333333333333333333333333444444444444444444444444444444444
+                  666666666777777777788888888889999999999000000000011111111112222222222333
+Taxon/Node        123456789012345678901234567890123456789012345678901234567890123456789012
+------------------------------------------------------------------------------------------
+gorilla.nucl      TTGCCCTCCACGAGGCGCCGCCTGTCCCTCTCACAGGAGCGACTCGCGGGTGCGGGCACTCCCCTGCCCTCC
+monodelphis.nucl  GATTTTAACCCCAGGCGTCGCCTCTCTCTCTCTCAGGAGCACATTCCCGAGGCGGGGAACCTCTTGCCTTCA
+macaca.nucl       TTGCTCTCCGTGAGGCGACGCCTGTCCCTCTCACAGGAGCAACTCGCAGGTGTGGGCACTCCCCTGCCCTCG
+mus.nucl          CCATTTTCTTCCAGGCGCCGACTGTCCCTCTCACAAGAGCACCTTGTAGATACAGGTGCTTGCCTGCCTTCA
+callithrix.nucl   TTGCTCTCCGCGAGGCGCCGCCTGTCTCTCTCACAGGAGCAACTTGCAGGCGCGGGCACGCCCCTGCCCTCA
+homo.nucl         TTGCCCTCCACGAGGCGCCGCCCGTCCCTCTCACAGGAGCGACTCGCGGGTGCGGGCACTCCCCTGCCCTGG
+pan.nucl          TTGCCCTCCACCAGGCGCCGCCTGTCCCTCTCACAGGAGCGACTCGCGGGTGTGGGCACTCCCCTGCCCTCG
+pongo.nucl        TTGCTCCCCGCAAGGCGCCGCCTGTCCCTCTCACAGGAGCAACTCGCAGGTGTGGGCACTCCCCTGCCCTCG
+rattus.nucl       CCATTTTCCTCCAGGCGCCGACTGTCCCTCTCACAAGAGCACCTTGTAGATGCAGGTGCCTGCCTGCCTTCC
+musDBAj.nucl      CCATTTTCTTCCAGGCGCCGACTGTCCCTCTCACAAGAGCACCTTGTAGATACAGGCGCTTGCCTGCCTTCA
+muscastaneous.nu  CCATTTTCTTCCAGGCGCCGACTGTCCCTCTCACAAGAGCACCTTGTAGATACAGGCGCTTGCCTGCCTTCA
+mfascicularis.nu  TTGCTCTCCGTGAGGCGACGCCTGTCCCTCTCACAGGAGCAACTCGCAGGTGTGGGCACTCCCCTGCCCTCG
+dipodomys.nucl    TGGCTCTCC---AGGCGCCGCCTGTCGCTCTCCCAGGAACACCTTGCAGATACGGGTGCTCACCT---TTCT
+musspretus.nucl   CCATTTTCTTCCAGGCGCCGACTGTCCCTCTCACAAGAGCACCTTGTAGATACAGGCGCTTGCCTGCCTTCA
+tarsius.nucl      CCACTCTCTGCGCGGCGTCGCCTTTCTCTCTCTCAGGAGCACCTGGCAGGCACGGGCACCTCCCTGCCCTTG
+cavia.nucl        CCACTGTCCTCGAGGCGCCGCCTGTCCCTCTCACAGGAGCACCTCATGGAAGCTGGTACCCATCCGCCCTCA
+17                CCATTTTCTTCCAGGCGCCGACTGTCCCTCTCACAAGAGCACCTTGTAGATACAGGCGCTTGCCTGCCTTCA
+18                CCATTTTCCTCCAGGCGCCGACTGTCCCTCTCACAAGAGCACCTTGTAGATACAGGTGCTTGCCTGCCTTCA
+19                CCACTTTCCTCCAGGCGCCGCCTGTCCCTCTCACAGGAGCACCTTGTAGATACGGGTGCTCACCTGCCTTCA
+20                CCACTTTCCTCCAGGCGCCGCCTGTCCCTCTCACAGGAGCACCTTATAGAAGCGGGTACCCACCTGCCTTCA
+21                GATTTTAACCCCAGGCGTCGCCTCTCTCTCTCTCAGGAGCACATTCCCGAGGCGGGGAACCTCTTGCCTTCA
+22                CCACTTTCCCCCAGGCGTCGCCTCTCTCTCTCTCAGGAGCACCTTGCAGAGGCGGGGACCCTCCTGCCTTCA
+23                CCACTCTCCGCGAGGCGTCGCCTGTCTCTCTCTCAGGAGCACCTTGCAGGCGCGGGCACCCCCCTGCCCTCA
+24                TTGCTCTCCGTGAGGCGACGCCTGTCCCTCTCACAGGAGCAACTCGCAGGTGTGGGCACTCCCCTGCCCTCG
+25                TTGCTCTCCGCGAGGCGTCGCCTGTCTCTCTCACAGGAGCAACTTGCAGGCGCGGGCACCCCCCTGCCCTCA
+26                TTGCTCTCCGCGAGGCGCCGCCTGTCCCTCTCACAGGAGCAACTCGCAGGTGTGGGCACTCCCCTGCCCTCG
+27                TTGCCCTCCACGAGGCGCCGCCTGTCCCTCTCACAGGAGCGACTCGCGGGTGTGGGCACTCCCCTGCCCTCG
+28                TTGCTCTCCGCGAGGCGCCGCCTGTCCCTCTCACAGGAGCAACTCGCAGGTGTGGGCACTCCCCTGCCCTCG
+29                TTGCYCTCCRCGAGGCGCCGCCTGTCCCTCTCACAGGAGCRACTCGCRGGTGTGGGCACTCCCCTGCCCTCG
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                  444444444444444444444444444444444444444444444444444444444444444444455555
+                  333333344444444445555555555666666666677777777778888888888999999999900000
+Taxon/Node        345678901234567890123456789012345678901234567890123456789012345678901234
+------------------------------------------------------------------------------------------
+gorilla.nucl      GCCAGCAGCAGCCCCACGTCCACGCCTGCGCTGGGCCGGCGCCGCGGGCTGCTCCGGTGCCACTCACAGCCG
+monodelphis.nucl  GCTAATAGCACTCCCACGTCTACGCCAGAGCTTAGCCGGCGCCAAGGCTTGTTGAGATGCCGCTCACAGCCT
+macaca.nucl       GCCAGCAGCAGCCCCACGTCCACGCCTGAGCTGGGCCGGCACCGTGGGCTGCTCCGGTGCCGCTCACAGCCC
+mus.nucl          GCCAGCAGCACCCCCACTTCCACACCTGAGCTAGGCCGGCACCATGGCCTGCTCCGGTGCCGCTCACAGCCT
+callithrix.nucl   GCCAGCAGCAGCCCGACGTCCACACCTGAGCTGGGCCGGCCCCGTGGGCTGCTCCGGTGCCGCTCACAGCCA
+homo.nucl         GCCAGCAGCAGCCCCACGTCCACGCCTGCGCTGGGCGGGCGCCGTGGGCTGCTCCGGTGCCGCTCACAGCCT
+pan.nucl          GCCAGCAGCAGCCCCACGTCCACGCCTGCGCTGGGCCGGCGCCGCGGGCTGCTCCGGTGCCGCTCACAGCCG
+pongo.nucl        GCCAGCAGCAGCCCCACGTCCACACCTGAACTGGGCCGGCTCCGCGGGCTGCTCCGGTGCCGCTCACAGCCA
+rattus.nucl       GCCAGCAGCACCCCCACTTCCACACCTGAGCTAGGCCGGCACCATGGCCTGCTCCGGTGCCGCTCACAGCCT
+musDBAj.nucl      GCCAGCAGCACCCCCACTTCCACACCTGAGCTAGGCCGGCACCATGGCCTGCTCCGGTGCCGCTCACAGCCT
+muscastaneous.nu  GCCAGCAGCACCCCCACTTCCACACCTGAGCTAGGCCGGCACCATGGCCTGCTCCGGTGCCGCTCACAGCCT
+mfascicularis.nu  GCCAGCAGCAGCCCCACGTCCACGCCTGAGCTGGGCCGGCACCGTGGGCTGCTCCGGTGCCGCTCACAGCCC
+dipodomys.nucl    GCCAGCAGCACCCCAACATCCACGCCCGAGCCAGGCCGGCGCCACGGCCTGCCCCGGTGCCGCTCGCAGCCC
+musspretus.nucl   GCCAGCAGCACCCCCACTTCCACACCTGAGCTAGGCCGGCACCATGGCCTGCTCCGGTGCCGCTCACAGCCT
+tarsius.nucl      GCCCGTAGCAGCCCCACATCCATATCTGAGCTGGGCCGGCGCAGCGGCCTGCTTCGGTGCCGCTCACAGCCA
+cavia.nucl        GCCAGCAGCACCCCAGCGTCCACACCTGAGCCTGGTCGGCGCCATGGCCTGCTGCGGTGCCGGTCGCAGCCC
+17                GCCAGCAGCACCCCCACTTCCACACCTGAGCTAGGCCGGCACCATGGCCTGCTCCGGTGCCGCTCACAGCCT
+18                GCCAGCAGCACCCCCACTTCCACACCTGAGCTAGGCCGGCACCATGGCCTGCTCCGGTGCCGCTCACAGCCT
+19                GCCAGCAGCACCCCAACATCCACACCTGAGCCAGGCCGGCGCCATGGCCTGCTCCGGTGCCGCTCGCAGCCC
+20                GCCAGCAGCACCCCAACGTCCACACCTGAGCCTGGCCGGCGCCATGGCCTGCTGCGGTGCCGCTCGCAGCCC
+21                GCTAATAGCACTCCCACGTCTACGCCAGAGCTTAGCCGGCGCCAAGGCTTGTTGAGATGCCGCTCACAGCCT
+22                GCCAGTAGCACCCCCACGTCCACACCTGAGCTTGGCCGGCGCCAAGGCCTGCTGCGGTGCCGCTCACAGCCT
+23                GCCAGTAGCAGCCCCACGTCCACACCTGAGCTGGGCCGGCGCCGTGGCCTGCTGCGGTGCCGCTCACAGCCA
+24                GCCAGCAGCAGCCCCACGTCCACGCCTGAGCTGGGCCGGCACCGTGGGCTGCTCCGGTGCCGCTCACAGCCC
+25                GCCAGCAGCAGCCCCACGTCCACACCTGAGCTGGGCCGGCGCCGTGGGCTGCTCCGGTGCCGCTCACAGCCA
+26                GCCAGCAGCAGCCCCACGTCCACACCTGAGCTGGGCCGGCGCCGTGGGCTGCTCCGGTGCCGCTCACAGCCA
+27                GCCAGCAGCAGCCCCACGTCCACGCCTGCGCTGGGCCGGCGCCGTGGGCTGCTCCGGTGCCGCTCACAGCCG
+28                GCCAGCAGCAGCCCCACGTCCACACCTGAGCTGGGCCGGCGCCGTGGGCTGCTCCGGTGCCGCTCACAGCCA
+29                GCCAGCAGCAGCCCCACGTCCACRCCTGMGCTGGGCCGGCGCCGYGGGCTGCTCCGGTGCCGCTCACAGCCD
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                  555555555555555555555555555555555555555555555555555555555555555555555555
+                  000001111111111222222222233333333334444444444555555555566666666667777777
+Taxon/Node        567890123456789012345678901234567890123456789012345678901234567890123456
+------------------------------------------------------------------------------------------
+gorilla.nucl      TGCGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGATGCCAGGTGGACACGCCCATCT
+monodelphis.nucl  TGTGTACTGAATGAAAAGAAAAGCCGACTAAAGCGAAGACGAGAAGAAGATGTGCGATGGAATCGTCCATCT
+macaca.nucl       TGTGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+mus.nucl          TGTGTATTGGATGGGAGGAGGGTCCGGCGCAAGCGAAGACGGGAGGAGGATGCCAGGTGGACACGCCCGTCC
+callithrix.nucl   TGTGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGCGAGGAGGACGCCAGGTGGATGCGCCCATCC
+homo.nucl         TGCGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+pan.nucl          TGCGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGTCCATCC
+pongo.nucl        TGTGTGCTCAGTGGGAAGAGGAGCCGGTGCAAACGGAGGCGTGAGGAGGATGCCAGGTGGACACGCCCATCC
+rattus.nucl       TGTGTGTTGGATGGGAGGAGGGTTCGGCGCAAGCGGAGACGGGAGGAGGATGCCAGGTGGACGCGCCCATCC
+musDBAj.nucl      TGTGTATTGGATGGGAGGAGGGTCCGGCGCAAGCGAAGACGGGAGGAGGATGCCAGGTGGACACGCCCGTCC
+muscastaneous.nu  TGTGTATTGGATGGGAGGAGGGTCCGGCGCAAGCGAAGACGGGAGGAGGATGCCAGGTGGACACGCCCGTCC
+mfascicularis.nu  TGCGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+dipodomys.nucl    TGTGTGCTCAGCGGAAGGAGAAGCCGGCGCAAGAGGCAGCG---GGAGGGTGCCAGGTGGACACGCCCGTCC
+musspretus.nucl   TGTGTATTGGATGGGAGGAGGGTCCGGCGCAAGCGAAGACGGGAGGAGGATGCCAGGTGGACACGCCCATCC
+tarsius.nucl      TGTGTGCTTGGCGGGAAGAGGAGCCGGCGCAAGCGGAGGCGTGAGGAGGATGCCAGGTGGACACGCCCATCC
+cavia.nucl        TGTGTGCTGGGTGGGAGGAGAAGTCGGTGCAAGCGCAGGCGAGAGGAGGATGCCAGGTGGACACGCCCATCC
+17                TGTGTATTGGATGGGAGGAGGGTCCGGCGCAAGCGAAGACGGGAGGAGGATGCCAGGTGGACACGCCCGTCC
+18                TGTGTGTTGGATGGGAGGAGGGTCCGGCGCAAGCGGAGACGGGAGGAGGATGCCAGGTGGACACGCCCGTCC
+19                TGTGTGCTGGGTGGGAGGAGAAGCCGGCGCAAGCGGAGGCGGGAGGAGGATGCCAGGTGGACACGCCCGTCC
+20                TGTGTGCTGGGTGGGAGGAGAAGCCGGCGCAAGCGCAGGCGAGAGGAGGATGCCAGGTGGACACGCCCATCC
+21                TGTGTACTGAATGAAAAGAAAAGCCGACTAAAGCGAAGACGAGAAGAAGATGTGCGATGGAATCGTCCATCT
+22                TGTGTGCTGGGTGGGAAGAGAAGCCGGCGCAAGCGGAGGCGAGAGGAGGATGCCAGGTGGACACGCCCATCC
+23                TGTGTGCTGGGTGGGAAGAGGAGCCGGCGCAAGCGGAGGCGAGAGGAGGATGCCAGGTGGACACGCCCATCC
+24                TGTGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+25                TGTGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+26                TGTGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+27                TGCGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+28                TGTGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+29                TGYGTGCTCAGTGGGAAGAGGAGCCGGCGCAAACGGAGGCGTGAGGAGGACGCCAGGTGGACACGCCCATCC
+
+Data matrix and reconstructed states for internal nodes (continued):
+
+                  555555555555555555555556
+                  777888888888899999999990
+Taxon/Node        789012345678901234567890
+------------------------------------------
+gorilla.nucl      TTGGACTTCCTGAAAATGACCCAG
+monodelphis.nucl  TTAGACTTTTTAAAAATGACACGG
+macaca.nucl       TTGGACTTCCTAAAAATGACCCGG
+mus.nucl          TTGGACTTTCTGAAAATGACACGG
+callithrix.nucl   TTGGACTTCCTGAAAATGACACGG
+homo.nucl         TTGGACTTCCTGAAAATGACCCAG
+pan.nucl          GTGGACTTCCTGAAAATGACCCAG
+pongo.nucl        TTGGACTTCCTAAAAATGACCCGG
+rattus.nucl       TTGGACTTTCTGAAAATGACTCGG
+musDBAj.nucl      TTGGACTTTCTGAAAATGACACGG
+muscastaneous.nu  TTGGACTTTCTGAAAATGACACGG
+mfascicularis.nu  TTGGACTTCCTAAAAATGACCCGG
+dipodomys.nucl    TTGGACTTCCTCAAAATGACGCGG
+musspretus.nucl   TTGGACTTTCTGAAAATGACACGG
+tarsius.nucl      TTGGACTTCCTAAAAATGACACGG
+cavia.nucl        TTGGACTTTCTCAAGATGACTCGG
+17                TTGGACTTTCTGAAAATGACACGG
+18                TTGGACTTTCTGAAAATGACTCGG
+19                TTGGACTTTCTCAAAATGACTCGG
+20                TTGGACTTTCTCAAAATGACTCGG
+21                TTAGACTTTTTAAAAATGACACGG
+22                TTGGACTTTCTAAAAATGACACGG
+23                TTGGACTTCCTAAAAATGACACGG
+24                TTGGACTTCCTAAAAATGACCCGG
+25                TTGGACTTCCTAAAAATGACACGG
+26                TTGGACTTCCTAAAAATGACCCGG
+27                TTGGACTTCCTGAAAATGACCCAG
+28                TTGGACTTCCTAAAAATGACCCGG
+29                TTGGACTTCCTRAAAATGACCCRG
+
+Tree length = 623
+Consistency index (CI) = 0.7143
+Homoplasy index (HI) = 0.2857
+CI excluding uninformative characters = 0.6330
+HI excluding uninformative characters = 0.3670
+Retention index (RI) = 0.7691
+Rescaled consistency index (RC) = 0.5494
+
+                                                      /------------------ gorilla.nucl
+                                                      |
+                                             /-------28        /--------- homo.nucl
+                                             |        \-------27
+                                    /-------26                 \--------- pan.nucl
+                                    |        |
+                                    |        \--------------------------- pongo.nucl
+                           /-------25
+                           |        |                          /--------- macaca.nucl
+                           |        \-------------------------24
+                  /-------23                                   \--------- mfascicularis.nu
+                  |        |
+         /-------22        \--------------------------------------------- callithrix.nucl
+         |        |
+         |        \------------------------------------------------------ tarsius.nucl
+         |
+         |                                                     /--------- mus.nucl
+         |                                                     |
+         |                                                     +--------- musDBAj.nucl
+/-------21                                            /-------17
+|        |                                            |        +--------- muscastaneous.nu
+|        |                                            |        |
+|        |                                   /-------18        \--------- musspretus.nucl
+|        |                                   |        |
+|        |                          /-------19        \------------------ rattus.nucl
+|        |                          |        |
+|        \-------------------------20        \--------------------------- dipodomys.nucl
+|                                   |
+|                                   \------------------------------------ cavia.nucl
+|
+\------------------------------------------------------------------------ monodelphis.nucl
+
+Character change lists:
+
+Character    CI  Steps                  Changes
+----------------------------------------------------------------
+1         1.000      1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+3         0.500      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+                     1          node_18 C ==> T node_17
+4         1.000      1          node_21 C --> A node_22
+                     1          node_21 C --> A node_20
+                     1          node_20 A ==> G node_19
+5         0.500      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+                     1          node_19 C ==> T dipodomys.nucl
+6         0.667      1          node_22 G ==> C tarsius.nucl
+                     1          node_21 G --> A node_20
+                     1          node_19 A --> G dipodomys.nucl
+9         0.750      1          node_23 C ==> G callithrix.nucl
+                     1          node_22 C ==> T tarsius.nucl
+                     1          node_21 C ==> A node_20
+                     1          node_18 A ==> T rattus.nucl
+12        1.000      1          node_20 A ==> G cavia.nucl
+15        0.750      1          node_21 T --> A node_22
+                     1          node_25 A --> G node_26
+                     1          node_25 A --> G node_24
+                     1          node_23 A --> C callithrix.nucl
+                     1          node_21 T --> A node_20
+                     1          node_19 A ==> G dipodomys.nucl
+16        1.000      1          node_21 C --> A node_22
+                     1          node_21 C --> A node_20
+18        1.000      1          node_19 C ==> T dipodomys.nucl
+21        1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+24        0.500      1          node_26 A --> G node_28
+                     1          node_26 A --> G pongo.nucl
+                     1          node_23 A ==> T callithrix.nucl
+                     1          node_21 A --> G node_20
+                     1          node_19 G --> A node_18
+27        0.500      1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_20 C ==> T cavia.nucl
+30        0.500      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_20 T --> C node_19
+33        1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+36        1.000      1          node_22 C ==> T tarsius.nucl
+37        1.000      1          node_26 C --> T node_28
+                     1          node_26 C --> T pongo.nucl
+42        1.000      1          node_20 A ==> G cavia.nucl
+45        0.500      1          node_23 G --> A node_25
+                     1          node_23 G --> A callithrix.nucl
+                     1          node_18 G ==> A node_17
+48        0.500      1          node_21 C --> A node_22
+                     1          node_23 A --> T node_25
+                     1          node_26 T --> C node_28
+                     1          node_26 T --> C pongo.nucl
+                     1          node_23 A --> T callithrix.nucl
+                     1          node_21 C --> A node_20
+                     1          node_19 A ==> T dipodomys.nucl
+49        1.000      1          node_28 G ==> A gorilla.nucl
+51        1.000      1          node_21 T --> G node_22
+                     1          node_21 T --> A node_20
+                     1          node_20 A --> G node_19
+57        0.667      1          node_26 G --> T node_28
+                     1          node_26 G --> T pongo.nucl
+                     1          node_18 G ==> A node_17
+                     1          node_20 G ==> T cavia.nucl
+59        1.000      1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+60        1.000      1          node_22 T --> G node_23
+                     1          node_22 T --> G tarsius.nucl
+                     1          node_20 T ==> C cavia.nucl
+61        0.500      1          node_28 C --> T gorilla.nucl
+                     1          node_26 C --> T pongo.nucl
+63        0.667      1          node_22 C ==> T tarsius.nucl
+                     1          node_21 C --> A node_20
+                     1          node_19 A --> C dipodomys.nucl
+67        0.500      1          node_26 C ==> T pongo.nucl
+                     1          node_20 C ==> T cavia.nucl
+68        1.000      1          node_22 G ==> C tarsius.nucl
+69        1.000      1          node_20 G ==> C node_19
+                     1          node_18 C ==> T rattus.nucl
+72        1.000      1          node_20 C ==> G cavia.nucl
+75        0.667      1          node_23 A --> C node_25
+                     1          node_23 A --> C callithrix.nucl
+                     1          node_18 A ==> G node_17
+                     1          node_20 A ==> C cavia.nucl
+79        1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+80        1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+81        0.750      1          node_21 A --> C node_22
+                     1          node_27 C ==> T pan.nucl
+                     1          node_23 C ==> T callithrix.nucl
+                     1          node_21 A --> C node_20
+                     1          node_19 C ==> G dipodomys.nucl
+84        0.250      1          node_22 T --> C node_23
+                     1          node_25 C --> T node_26
+                     1          node_28 T --> C gorilla.nucl
+                     1          node_28 T --> C node_27
+                     1          node_25 C --> T node_24
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_19 T ==> C dipodomys.nucl
+85        0.500      1          node_23 G ==> A callithrix.nucl
+                     1          node_19 G ==> A dipodomys.nucl
+87        0.333      1          node_21 C --> T node_22
+                     1          node_23 T --> C node_25
+                     1          node_23 T --> C callithrix.nucl
+                     1          node_21 C --> T node_20
+                     1          node_19 T --> C dipodomys.nucl
+88        0.333      1          node_21 A --> G node_22
+                     1          node_25 G --> A node_26
+                     1          node_25 G --> A node_24
+                     1          node_21 A --> G node_20
+                     1          node_19 G ==> A node_18
+90        1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+95        1.000      1          node_25 A ==> C node_24
+99        0.500      1          node_22 C ==> G tarsius.nucl
+                     1          node_19 C ==> G node_18
+107       1.000      1          node_20 C ==> T cavia.nucl
+108       0.500      1          node_21 C --> A node_22
+                     1          node_21 C --> A node_20
+                     1          node_19 A ==> C node_18
+109       1.000      1          node_19 G ==> A node_18
+111       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+114       1.000      1          node_18 C ==> T rattus.nucl
+120       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+121       1.000      1          node_27 C ==> T pan.nucl
+                     1          node_19 C ==> A node_18
+123       0.667      1          node_23 A --> G node_25
+                     1          node_23 A --> G callithrix.nucl
+                     1          node_18 A ==> G node_17
+                     1          node_19 A ==> C dipodomys.nucl
+126       1.000      1          node_27 C ==> T pan.nucl
+127       1.000      1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+132       0.333      1          node_21 C --> T node_22
+                     1          node_25 T --> C node_26
+                     1          node_25 T --> C node_24
+                     1          node_21 C --> T node_20
+                     1          node_19 T ==> C dipodomys.nucl
+135       0.500      1          node_23 C --> T node_25
+                     1          node_26 T --> C node_28
+                     1          node_26 T --> C pongo.nucl
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_18 C ==> T node_17
+                     1          node_20 C ==> G cavia.nucl
+138       0.667      1          node_22 C --> G node_23
+                     1          node_22 C ==> A tarsius.nucl
+                     1          node_21 C --> G node_20
+                     1          node_19 G ==> A dipodomys.nucl
+141       0.500      1          node_22 T --> C node_23
+                     1          node_28 C --> T gorilla.nucl
+                     1          node_28 C --> T node_27
+                     1          node_22 T --> C tarsius.nucl
+144       1.000      1          node_25 C ==> A node_24
+                     1          node_20 C ==> T cavia.nucl
+146       1.000      1          node_27 C ==> T pan.nucl
+147       0.400      1          node_21 C --> A node_22
+                     1          node_26 A --> G node_28
+                     1          node_26 A --> G pongo.nucl
+                     1          node_23 A --> G callithrix.nucl
+                     1          node_21 C --> A node_20
+                     1          node_20 A --> G node_19
+                     1          node_18 G --> A node_17
+148       0.500      1          node_21 T --> C node_22
+                     1          node_25 C ==> T node_24
+                     1          node_21 T --> C node_20
+149       1.000      1          node_28 T --> G gorilla.nucl
+                     1          node_28 T --> G node_27
+150       1.000      1          node_18 G ==> T node_17
+152       1.000      1          node_19 A ==> G dipodomys.nucl
+153       1.000      1          node_22 G ==> A tarsius.nucl
+154       0.667      1          node_23 C --> G node_25
+                     1          node_23 C --> G callithrix.nucl
+                     1          node_20 C --> G node_19
+                     1          node_19 G --> T node_18
+156       1.000      1          node_23 C --> A node_25
+                     1          node_23 C --> A callithrix.nucl
+157       1.000      1          node_23 T --> A node_25
+                     1          node_23 T --> A callithrix.nucl
+                     1          node_19 T ==> G dipodomys.nucl
+159       1.000      1          node_20 C ==> T cavia.nucl
+160       1.000      1          node_23 A --> C node_25
+                     1          node_23 A --> C callithrix.nucl
+                     1          node_19 A ==> G dipodomys.nucl
+161       1.000      1          node_21 A --> G node_22
+                     1          node_23 G --> C node_25
+                     1          node_23 G --> C callithrix.nucl
+                     1          node_21 A --> G node_20
+162       0.500      1          node_23 C ==> G callithrix.nucl
+                     1          node_22 C ==> T tarsius.nucl
+                     1          node_18 C ==> T rattus.nucl
+                     1          node_20 C ==> T cavia.nucl
+163       0.500      1          node_21 A --> G node_22
+                     1          node_26 G ==> A pongo.nucl
+                     1          node_21 A --> G node_20
+165       0.333      1          node_21 T --> C node_22
+                     1          node_23 C ==> T callithrix.nucl
+                     1          node_21 T --> C node_20
+                     1          node_18 C ==> T rattus.nucl
+166       0.667      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+                     1          node_20 C --> G node_19
+                     1          node_18 G --> C rattus.nucl
+167       0.667      1          node_22 G --> A tarsius.nucl
+                     1          node_21 G --> T node_20
+                     1          node_19 T --> G dipodomys.nucl
+168       0.667      1          node_22 C --> T tarsius.nucl
+                     1          node_18 C ==> G node_17
+                     1          node_20 C --> T cavia.nucl
+171       0.500      1          node_22 C --> G tarsius.nucl
+                     1          node_20 C --> G cavia.nucl
+172       1.000      1          node_20 A ==> G cavia.nucl
+173       0.500      1          node_22 G --> A tarsius.nucl
+                     1          node_20 G --> A node_19
+174       0.500      1          node_22 T --> C tarsius.nucl
+                     1          node_20 T --> C node_19
+175       1.000      1          node_21 G --> A node_20
+                     1          node_20 A --> C node_19
+177       1.000      1          node_21 C --> G node_20
+                     1          node_20 G --> T node_19
+178       0.500      1          node_21 A --> G node_20
+                     1          node_18 G --> A node_17
+180       0.667      1          node_22 C --> A tarsius.nucl
+                     1          node_20 C --> A node_19
+                     1          node_18 A --> T node_17
+182       1.000      1          node_22 T --> A tarsius.nucl
+187       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+189       1.000      1          node_21 A --> C node_20
+191       1.000      1          node_18 G ==> C node_17
+193       1.000      1          node_21 A --> C node_20
+194       1.000      1          node_21 C --> T node_20
+195       1.000      1          node_21 C --> A node_22
+                     1          node_21 C --> A node_20
+196       1.000      1          node_21 A --> G node_20
+197       1.000      1          node_21 G --> C node_20
+                     1          node_18 C --> T node_17
+199       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+200       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+216       1.000      1          node_22 T --> A tarsius.nucl
+                     1          node_18 T ==> C rattus.nucl
+218       1.000      1          node_21 T --> G node_22
+                     1          node_23 G --> C node_25
+                     1          node_23 G --> C callithrix.nucl
+                     1          node_21 T --> G node_20
+219       1.000      1          node_28 C ==> T gorilla.nucl
+220       0.667      1          node_23 C --> G node_25
+                     1          node_23 C --> G callithrix.nucl
+                     1          node_22 C --> A tarsius.nucl
+                     1          node_19 C --> G dipodomys.nucl
+221       1.000      1          node_22 T ==> C tarsius.nucl
+                     1          node_19 T ==> G dipodomys.nucl
+222       1.000      1          node_21 G --> C node_22
+                     1          node_23 C ==> T callithrix.nucl
+                     1          node_21 G --> C node_20
+223       1.000      1          node_19 C ==> A dipodomys.nucl
+224       0.667      1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_21 C --> G node_20
+                     1          node_19 G --> T node_18
+225       1.000      1          node_21 G --> A node_20
+                     1          node_19 A --> C dipodomys.nucl
+227       0.500      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_19 T --> C node_18
+228       0.750      1          node_22 C --> G node_23
+                     1          node_27 G ==> A pan.nucl
+                     1          node_26 G ==> T pongo.nucl
+                     1          node_22 C --> G tarsius.nucl
+                     1          node_19 C ==> T dipodomys.nucl
+229       1.000      1          node_21 C --> A node_22
+                     1          node_21 C --> A node_20
+                     1          node_19 A ==> G dipodomys.nucl
+230       0.500      1          node_21 A --> G node_22
+                     1          node_24 G ==> A mfascicularis.nu
+                     1          node_21 A --> G node_20
+231       1.000      1          node_24 G ==> C macaca.nucl
+232       1.000      1          node_26 A ==> G pongo.nucl
+233       0.500      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_18 G ==> A rattus.nucl
+234       0.667      1          node_21 T --> C node_22
+                     1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_21 T --> C node_20
+                     1          node_19 C --> G node_18
+235       1.000      1          node_21 G --> C node_20
+                     1          node_19 C --> T dipodomys.nucl
+236       0.500      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_19 T --> C node_18
+237       0.500      1          node_23 G --> C node_25
+                     1          node_26 C --> T node_28
+                     1          node_26 C --> T pongo.nucl
+                     1          node_23 G --> C callithrix.nucl
+                     1          node_22 G --> T tarsius.nucl
+                     1          node_19 G --> T node_18
+238       1.000      1          node_21 T --> G node_22
+                     1          node_23 G ==> C callithrix.nucl
+                     1          node_21 T --> G node_20
+239       0.667      1          node_25 T ==> C node_24
+                     1          node_22 T ==> C tarsius.nucl
+                     1          node_19 T ==> G dipodomys.nucl
+240       0.500      1          node_22 C --> G node_23
+                     1          node_22 C --> G tarsius.nucl
+                     1          node_19 C --> G node_18
+241       0.500      1          node_21 C --> T node_22
+                     1          node_21 C --> T node_20
+                     1          node_19 T ==> C dipodomys.nucl
+242       0.667      1          node_23 C --> G node_25
+                     1          node_23 C --> G callithrix.nucl
+                     1          node_22 C --> T tarsius.nucl
+                     1          node_19 C ==> T dipodomys.nucl
+243       0.667      1          node_21 T --> G node_22
+                     1          node_21 T --> A node_20
+                     1          node_20 A --> G node_19
+                     1          node_18 G ==> A node_17
+244       1.000      1          node_21 G --> C node_22
+                     1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_21 G --> C node_20
+245       0.333      1          node_28 T --> C gorilla.nucl
+                     1          node_27 T --> C homo.nucl
+                     1          node_21 T ==> C node_20
+246       1.000      1          node_22 T --> G node_23
+                     1          node_22 T --> G tarsius.nucl
+                     1          node_20 T ==> C node_19
+247       0.200      1          node_22 A --> G node_23
+                     1          node_28 G --> A gorilla.nucl
+                     1          node_28 G --> A node_27
+                     1          node_25 G --> A node_24
+                     1          node_22 A --> G tarsius.nucl
+                     1          node_18 A --> G node_17
+                     1          node_20 A --> G cavia.nucl
+248       1.000      1          node_19 C ==> G dipodomys.nucl
+249       0.500      1          node_25 T --> C node_26
+                     1          node_25 T --> C node_24
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_18 T ==> C rattus.nucl
+                     1          node_19 T ==> G dipodomys.nucl
+250       0.667      1          node_27 G ==> C pan.nucl
+                     1          node_22 G ==> A tarsius.nucl
+                     1          node_19 G ==> A dipodomys.nucl
+252       1.000      1          node_25 C --> T node_26
+                     1          node_25 C --> T node_24
+253       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+254       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+255       1.000      1          node_19 C ==> T node_18
+256       1.000      1          node_21 C --> A node_22
+                     1          node_21 C --> A node_20
+257       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+258       1.000      1          node_20 C ==> T cavia.nucl
+259       1.000      1          node_21 A --> T node_22
+                     1          node_26 T ==> C pongo.nucl
+                     1          node_21 A --> T node_20
+260       0.500      1          node_26 C ==> T pongo.nucl
+                     1          node_19 C ==> T dipodomys.nucl
+261       0.500      1          node_26 A --> G node_28
+                     1          node_26 A --> G pongo.nucl
+                     1          node_19 A ==> G dipodomys.nucl
+262       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+264       0.500      1          node_21 T --> C node_22
+                     1          node_26 C ==> T pongo.nucl
+                     1          node_23 C ==> T callithrix.nucl
+                     1          node_21 T --> C node_20
+                     1          node_18 C ==> G rattus.nucl
+265       1.000      1          node_23 C --> G node_25
+                     1          node_23 C --> G callithrix.nucl
+                     1          node_22 C --> T tarsius.nucl
+                     1          node_18 C ==> A rattus.nucl
+266       1.000      1          node_21 C ==> T node_20
+267       1.000      1          node_23 G --> C node_25
+                     1          node_23 G --> C callithrix.nucl
+                     1          node_22 G --> T tarsius.nucl
+268       0.500      1          node_22 G --> A node_23
+                     1          node_22 G --> A tarsius.nucl
+                     1          node_19 G ==> A node_18
+269       0.500      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+                     1          node_19 C ==> T dipodomys.nucl
+270       0.500      1          node_22 G ==> A tarsius.nucl
+                     1          node_20 G ==> A cavia.nucl
+274       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+279       0.667      1          node_21 T --> A node_22
+                     1          node_23 A --> G node_25
+                     1          node_23 A --> G callithrix.nucl
+                     1          node_21 T --> A node_20
+                     1          node_19 A ==> T dipodomys.nucl
+280       1.000      1          node_21 T ==> G node_20
+282       1.000      1          node_19 C ==> T node_18
+                     1          node_20 C ==> G cavia.nucl
+285       0.750      1          node_22 C --> G node_23
+                     1          node_28 G --> C gorilla.nucl
+                     1          node_28 G --> C node_27
+                     1          node_22 C --> G tarsius.nucl
+                     1          node_21 C --> A node_20
+                     1          node_19 A ==> T dipodomys.nucl
+286       1.000      1          node_19 G ==> C dipodomys.nucl
+291       0.333      1          node_28 C --> T gorilla.nucl
+                     1          node_27 C --> T pan.nucl
+                     1          node_17 C ==> T muscastaneous.nu
+292       1.000      1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+294       0.500      1          node_23 T --> C node_25
+                     1          node_23 T --> C callithrix.nucl
+                     1          node_19 T ==> C dipodomys.nucl
+298       1.000      1          node_19 T ==> G dipodomys.nucl
+300       1.000      1          node_23 T --> C node_25
+                     1          node_23 T --> C callithrix.nucl
+                     1          node_19 T ==> G dipodomys.nucl
+301       0.500      1          node_28 G ==> A gorilla.nucl
+                     1          node_22 G ==> A tarsius.nucl
+302       1.000      1          node_19 T ==> G dipodomys.nucl
+303       1.000      1          node_19 G ==> C dipodomys.nucl
+306       1.000      1          node_20 C --> G node_19
+                     1          node_19 G --> T node_18
+307       1.000      1          node_19 A ==> G node_18
+311       1.000      1          node_19 G ==> T dipodomys.nucl
+312       0.333      1          node_25 T --> C node_26
+                     1          node_25 T --> C node_24
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_19 T ==> C dipodomys.nucl
+318       1.000      1          node_19 C ==> T dipodomys.nucl
+319       1.000      1          node_19 A ==> G dipodomys.nucl
+321       0.333      1          node_25 C --> T node_26
+                     1          node_25 C --> T node_24
+                     1          node_21 C --> T node_20
+                     1          node_19 T --> C dipodomys.nucl
+322       1.000      1          node_23 A --> G node_25
+                     1          node_23 A --> G callithrix.nucl
+                     1          node_19 A ==> C dipodomys.nucl
+323       0.333      1          node_22 C --> T node_23
+                     1          node_25 T --> C node_26
+                     1          node_28 C ==> T gorilla.nucl
+                     1          node_25 T --> C node_24
+                     1          node_22 C --> T tarsius.nucl
+324       0.400      1          node_21 C --> G node_22
+                     1          node_23 G --> A node_25
+                     1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+                     1          node_23 G --> A callithrix.nucl
+                     1          node_21 C --> A node_20
+                     1          node_20 A --> G node_19
+                     1          node_18 G --> A node_17
+325       0.500      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_19 G ==> A node_18
+326       1.000      1          node_19 G ==> C dipodomys.nucl
+329       1.000      1          node_19 C ==> T dipodomys.nucl
+330       1.000      1          node_19 A ==> G dipodomys.nucl
+331       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+332       1.000      1          node_19 G ==> C dipodomys.nucl
+333       1.000      1          node_18 C ==> T rattus.nucl
+334       1.000      1          node_21 A --> C node_22
+                     1          node_26 C ==> G pongo.nucl
+                     1          node_21 A --> C node_20
+335       0.500      1          node_21 T --> C node_22
+                     1          node_25 C ==> T node_24
+                     1          node_21 T --> C node_20
+336       0.500      1          node_22 C --> A node_23
+                     1          node_25 A --> G node_26
+                     1          node_25 A --> G node_24
+                     1          node_22 C --> G tarsius.nucl
+                     1          node_21 C --> A node_20
+                     1          node_19 A --> C dipodomys.nucl
+337       1.000      1          node_20 C ==> T cavia.nucl
+338       1.000      1          node_21 G --> C node_22
+                     1          node_26 C --> T node_28
+                     1          node_26 C --> T pongo.nucl
+                     1          node_21 G --> C node_20
+343       1.000      1          node_22 A --> T node_23
+                     1          node_22 A --> T tarsius.nucl
+                     1          node_21 A --> C node_20
+344       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_20 G --> T node_19
+345       1.000      1          node_19 T ==> C dipodomys.nucl
+346       0.333      1          node_21 T --> C node_22
+                     1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_21 T --> C node_20
+                     1          node_19 C --> T node_18
+348       1.000      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+349       0.333      1          node_21 G --> A node_22
+                     1          node_25 A --> G node_26
+                     1          node_25 A --> G node_24
+                     1          node_21 G --> A node_20
+                     1          node_19 A ==> G dipodomys.nucl
+350       1.000      1          node_19 C ==> A dipodomys.nucl
+351       0.500      1          node_21 T --> A node_22
+                     1          node_26 A --> G node_28
+                     1          node_26 A --> G pongo.nucl
+                     1          node_23 A --> G callithrix.nucl
+                     1          node_21 T --> A node_20
+                     1          node_19 A ==> G dipodomys.nucl
+352       1.000      1          node_19 G ==> C dipodomys.nucl
+353       0.500      1          node_23 G --> A node_25
+                     1          node_23 G --> A callithrix.nucl
+                     1          node_19 G ==> A dipodomys.nucl
+354       0.500      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_19 G ==> A node_18
+355       1.000      1          node_26 C --> T node_28
+                     1          node_26 C --> T pongo.nucl
+357       0.500      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+                     1          node_19 C ==> T dipodomys.nucl
+358       1.000      1          node_19 T ==> G dipodomys.nucl
+359       1.000      1          node_25 G ==> A node_24
+360       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+361       0.667      1          node_21 G --> C node_22
+                     1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_21 G --> C node_20
+                     1          node_19 C ==> T dipodomys.nucl
+362       1.000      1          node_21 A --> C node_22
+                     1          node_23 C --> T node_25
+                     1          node_23 C --> T callithrix.nucl
+                     1          node_21 A --> C node_20
+                     1          node_19 C ==> G dipodomys.nucl
+363       0.667      1          node_21 T --> A node_22
+                     1          node_23 A --> G node_25
+                     1          node_23 A --> G callithrix.nucl
+                     1          node_21 T --> A node_20
+                     1          node_19 A ==> G dipodomys.nucl
+364       0.500      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+                     1          node_19 C ==> T node_18
+365       1.000      1          node_28 T --> C gorilla.nucl
+                     1          node_28 T --> C node_27
+366       0.667      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_19 T --> C dipodomys.nucl
+                     1          node_20 T ==> G cavia.nucl
+367       1.000      1          node_21 A --> T node_22
+                     1          node_26 T ==> C pongo.nucl
+                     1          node_21 A --> T node_20
+368       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+369       0.500      1          node_22 C ==> T tarsius.nucl
+                     1          node_18 C ==> T node_17
+370       1.000      1          node_22 C --> G node_23
+                     1          node_28 G --> A gorilla.nucl
+                     1          node_28 G --> A node_27
+                     1          node_22 C --> G tarsius.nucl
+                     1          node_21 C --> T node_20
+371       1.000      1          node_25 C ==> T node_24
+372       0.500      1          node_22 C --> G node_23
+                     1          node_27 G ==> C pan.nucl
+                     1          node_26 G ==> A pongo.nucl
+                     1          node_22 C --> G tarsius.nucl
+                     1          node_20 C --> G cavia.nucl
+373       1.000      1          node_22 A ==> C tarsius.nucl
+378       0.667      1          node_25 T --> C node_26
+                     1          node_25 T ==> A node_24
+                     1          node_23 T --> C callithrix.nucl
+                     1          node_21 T --> C node_20
+381       1.000      1          node_19 C ==> A node_18
+383       1.000      1          node_27 T ==> C homo.nucl
+384       1.000      1          node_22 C --> G node_23
+                     1          node_22 C ==> T tarsius.nucl
+                     1          node_21 C --> G node_20
+387       0.667      1          node_25 T --> C node_26
+                     1          node_25 T --> C node_24
+                     1          node_21 T ==> C node_20
+                     1          node_19 C ==> G dipodomys.nucl
+393       0.667      1          node_23 T --> A node_25
+                     1          node_23 T --> A callithrix.nucl
+                     1          node_21 T --> A node_20
+                     1          node_19 A ==> C dipodomys.nucl
+396       1.000      1          node_19 G ==> A node_18
+399       1.000      1          node_19 G ==> A dipodomys.nucl
+401       1.000      1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+402       1.000      1          node_23 C --> A node_25
+                     1          node_23 C --> A callithrix.nucl
+403       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+405       0.667      1          node_25 T --> C node_26
+                     1          node_25 T --> C node_24
+                     1          node_22 T ==> G tarsius.nucl
+                     1          node_20 T ==> C cavia.nucl
+406       1.000      1          node_21 C --> G node_22
+                     1          node_21 C --> A node_20
+                     1          node_20 A --> G node_19
+407       0.500      1          node_21 C --> T node_20
+                     1          node_19 T --> C dipodomys.nucl
+408       0.667      1          node_21 C --> A node_22
+                     1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+                     1          node_21 C --> A node_20
+                     1          node_20 A ==> G cavia.nucl
+410       1.000      1          node_22 A --> G node_23
+                     1          node_22 A --> G tarsius.nucl
+411       0.750      1          node_22 G --> C node_23
+                     1          node_25 C --> T node_26
+                     1          node_25 C --> T node_24
+                     1          node_22 G --> C tarsius.nucl
+                     1          node_21 G --> A node_20
+                     1          node_20 A --> T node_19
+412       0.333      1          node_22 G ==> A tarsius.nucl
+                     1          node_20 G --> A node_19
+                     1          node_18 A --> G rattus.nucl
+413       0.333      1          node_25 C --> T node_26
+                     1          node_28 T --> C gorilla.nucl
+                     1          node_27 T --> C homo.nucl
+                     1          node_25 C --> T node_24
+414       1.000      1          node_19 G ==> A node_18
+                     1          node_20 G ==> T cavia.nucl
+417       0.500      1          node_22 G --> C node_23
+                     1          node_22 G --> C tarsius.nucl
+                     1          node_21 G --> T node_20
+                     1          node_18 T ==> C node_17
+                     1          node_17 C ==> T mus.nucl
+418       1.000      1          node_20 A ==> G node_19
+419       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+420       0.500      1          node_25 C --> T node_26
+                     1          node_25 C --> T node_24
+                     1          node_23 C --> G callithrix.nucl
+                     1          node_20 C --> T node_19
+                     1          node_18 T --> C rattus.nucl
+421       0.500      1          node_22 C ==> T tarsius.nucl
+                     1          node_19 C ==> T node_18
+422       1.000      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_21 T --> A node_20
+                     1          node_19 A ==> G node_18
+423       1.000      1          node_20 C ==> T cavia.nucl
+424       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+425       1.000      1          node_20 T ==> C cavia.nucl
+429       0.500      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_20 T --> C cavia.nucl
+431       1.000      1          node_27 C ==> G homo.nucl
+                     1          node_22 C ==> T tarsius.nucl
+432       0.600      1          node_25 A --> G node_26
+                     1          node_28 G ==> C gorilla.nucl
+                     1          node_25 A --> G node_24
+                     1          node_22 A --> G tarsius.nucl
+                     1          node_18 A ==> C rattus.nucl
+                     1          node_19 A ==> T dipodomys.nucl
+435       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+436       1.000      1          node_22 A ==> C tarsius.nucl
+437       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+438       0.500      1          node_23 T --> C node_25
+                     1          node_23 T --> C callithrix.nucl
+                     1          node_21 T --> C node_20
+443       1.000      1          node_22 C --> G node_23
+                     1          node_22 C --> G tarsius.nucl
+444       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+447       0.667      1          node_23 C ==> G callithrix.nucl
+                     1          node_21 C --> A node_20
+                     1          node_19 A --> C node_18
+448       1.000      1          node_20 A ==> G cavia.nucl
+450       0.667      1          node_22 G ==> A tarsius.nucl
+                     1          node_20 G --> A node_19
+                     1          node_19 A --> T node_18
+453       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+455       1.000      1          node_22 C ==> T tarsius.nucl
+456       0.250      1          node_21 G --> A node_22
+                     1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+                     1          node_25 A --> G node_24
+                     1          node_21 G --> A node_20
+                     1          node_19 A ==> G dipodomys.nucl
+457       1.000      1          node_22 C ==> T tarsius.nucl
+459       1.000      1          node_21 A --> T node_22
+                     1          node_21 A --> T node_20
+                     1          node_19 T ==> C dipodomys.nucl
+461       1.000      1          node_28 A --> C gorilla.nucl
+                     1          node_28 A --> C node_27
+462       1.000      1          node_26 G ==> A pongo.nucl
+464       0.500      1          node_21 T --> C node_20
+                     1          node_19 C --> T node_18
+465       1.000      1          node_22 T --> G node_23
+                     1          node_22 T --> G tarsius.nucl
+                     1          node_20 T ==> A node_19
+466       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+468       1.000      1          node_20 C ==> T cavia.nucl
+469       1.000      1          node_27 C ==> G homo.nucl
+473       0.750      1          node_26 G ==> T pongo.nucl
+                     1          node_25 G ==> A node_24
+                     1          node_23 G ==> C callithrix.nucl
+                     1          node_19 G ==> A node_18
+475       1.000      1          node_22 C ==> A tarsius.nucl
+476       1.000      1          node_22 A --> G node_23
+                     1          node_22 A --> G tarsius.nucl
+477       0.400      1          node_22 A --> T node_23
+                     1          node_28 T --> C gorilla.nucl
+                     1          node_27 T --> C pan.nucl
+                     1          node_26 T --> C pongo.nucl
+                     1          node_22 A ==> C tarsius.nucl
+                     1          node_21 A --> T node_20
+                     1          node_19 T ==> C dipodomys.nucl
+480       1.000      1          node_23 C --> G node_25
+                     1          node_23 C --> G callithrix.nucl
+481       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+484       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+485       1.000      1          node_19 T ==> C dipodomys.nucl
+486       0.667      1          node_23 G --> C node_25
+                     1          node_23 G --> C callithrix.nucl
+                     1          node_22 G --> T tarsius.nucl
+                     1          node_20 G --> C node_19
+487       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+489       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+494       1.000      1          node_28 G ==> A gorilla.nucl
+495       1.000      1          node_20 C ==> G cavia.nucl
+498       0.500      1          node_21 A --> G node_20
+                     1          node_19 G --> A node_18
+504       0.500      1          node_22 T --> A node_23
+                     1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+                     1          node_27 G ==> T homo.nucl
+                     1          node_25 A ==> C node_24
+                     1          node_22 T --> A tarsius.nucl
+                     1          node_21 T --> C node_20
+                     1          node_19 C --> T node_18
+507       0.500      1          node_28 T --> C gorilla.nucl
+                     1          node_28 T --> C node_27
+                     1          node_24 T ==> C mfascicularis.nu
+510       0.500      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_18 G ==> A node_17
+511       1.000      1          node_19 C ==> T node_18
+513       0.667      1          node_23 G --> C node_25
+                     1          node_23 G --> C callithrix.nucl
+                     1          node_22 G --> T tarsius.nucl
+                     1          node_19 G ==> C dipodomys.nucl
+514       0.333      1          node_21 A --> G node_22
+                     1          node_23 G --> A node_25
+                     1          node_23 G --> A callithrix.nucl
+                     1          node_21 A --> G node_20
+                     1          node_19 G --> A dipodomys.nucl
+515       0.500      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_19 G ==> A node_18
+516       0.500      1          node_22 T ==> C tarsius.nucl
+                     1          node_19 T ==> C dipodomys.nucl
+518       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+519       0.500      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_19 G ==> A dipodomys.nucl
+521       1.000      1          node_21 A ==> G node_20
+524       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+525       0.500      1          node_22 A --> G node_23
+                     1          node_22 A --> G tarsius.nucl
+                     1          node_19 A ==> G node_18
+526       1.000      1          node_19 A ==> G node_18
+527       1.000      1          node_19 G ==> T node_18
+528       0.500      1          node_18 C ==> T rattus.nucl
+                     1          node_20 C ==> T cavia.nucl
+531       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+532       0.500      1          node_26 C ==> T pongo.nucl
+                     1          node_20 C ==> T cavia.nucl
+533       1.000      1          node_21 T --> G node_22
+                     1          node_21 T --> G node_20
+534       1.000      1          node_21 A --> C node_22
+                     1          node_21 A --> C node_20
+537       1.000      1          node_23 G --> A node_25
+                     1          node_23 G --> A callithrix.nucl
+538       1.000      1          node_19 C ==> A dipodomys.nucl
+540       0.667      1          node_21 A --> G node_22
+                     1          node_21 A --> C node_20
+                     1          node_20 C --> G node_19
+                     1          node_18 G ==> A node_17
+541       1.000      1          node_19 A ==> C dipodomys.nucl
+542       1.000      1          node_19 G ==> A dipodomys.nucl
+543       0.500      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+                     1          node_19 G ==> A node_18
+546       1.000      1          node_23 A --> T node_25
+                     1          node_23 A ==> C callithrix.nucl
+                     1          node_22 A --> T tarsius.nucl
+                     1          node_20 A --> G node_19
+549       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+552       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+554       1.000      1          node_19 A ==> G dipodomys.nucl
+555       0.333      1          node_23 T --> C node_25
+                     1          node_28 C --> T gorilla.nucl
+                     1          node_26 C --> T pongo.nucl
+                     1          node_23 T --> C callithrix.nucl
+557       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+558       1.000      1          node_21 G --> C node_22
+                     1          node_21 G --> C node_20
+559       1.000      1          node_21 C --> A node_22
+                     1          node_21 C --> A node_20
+561       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+566       1.000      1          node_21 A --> C node_22
+                     1          node_23 C ==> T callithrix.nucl
+                     1          node_21 A --> C node_20
+567       0.667      1          node_21 T --> A node_22
+                     1          node_23 A ==> G callithrix.nucl
+                     1          node_21 T --> A node_20
+                     1          node_18 A ==> G rattus.nucl
+570       0.500      1          node_21 T --> C node_22
+                     1          node_27 C ==> T pan.nucl
+                     1          node_21 T --> C node_20
+573       0.333      1          node_20 A --> G node_19
+                     1          node_17 G ==> A musspretus.nucl
+                     1          node_18 G --> A rattus.nucl
+576       0.500      1          node_21 T --> C node_22
+                     1          node_28 C ==> T gorilla.nucl
+                     1          node_21 T --> C node_20
+577       1.000      1          node_27 T ==> G pan.nucl
+579       1.000      1          node_21 A --> G node_22
+                     1          node_21 A --> G node_20
+585       0.500      1          node_22 T --> C node_23
+                     1          node_22 T --> C tarsius.nucl
+                     1          node_19 T ==> C dipodomys.nucl
+586       1.000      1          node_21 T --> C node_22
+                     1          node_21 T --> C node_20
+588       0.500      1          node_28 A --> G gorilla.nucl
+                     1          node_28 A --> G node_27
+                     1          node_23 A ==> G callithrix.nucl
+                     1          node_21 A ==> C node_20
+                     1          node_19 C ==> G node_18
+591       1.000      1          node_20 A ==> G cavia.nucl
+597       0.750      1          node_25 A --> C node_26
+                     1          node_25 A --> C node_24
+                     1          node_21 A --> T node_20
+                     1          node_18 T --> A node_17
+                     1          node_19 T ==> G dipodomys.nucl
+599       1.000      1          node_28 G --> A gorilla.nucl
+                     1          node_28 G --> A node_27
